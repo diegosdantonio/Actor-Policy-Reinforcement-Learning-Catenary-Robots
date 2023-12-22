@@ -7,12 +7,10 @@
 ## Introduction
 In the realm of aerial cable manipulation, catenary robots have emerged as a novel solution. These systems, each formed by two quadcopters connected via a non-stretchable cable, offer a new approach to complex manipulation tasks like tying knots and hitches.
 
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://youtu.be/rOAVMieaIJA "Experiment1")
 
-[![IMAGE ALT TEXT HERE](https://youtu.be/Ci6wI2GcJEw)](https://youtu.be/Ci6wI2GcJEw)
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://youtu.be/Ci6wI2GcJEw "Experiment1")
 
-[![IMAGE ALT TEXT HERE](https://youtu.be/rOAVMieaIJA)]()
-
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://youtu.be/rOAVMieaIJA "Now in Android: 55")
 
 ## The Challenge
 Controlling the dynamics of catenary robots presents unique challenges due to the complex, nonlinear effects arising from physical interactions and cable dynamics. The goal is to develop a model that enables coordinated manipulation of interlacing cables.
