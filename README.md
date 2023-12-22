@@ -8,7 +8,14 @@
 
 [Youtube video of experiment 2](https://youtu.be/Ci6wI2GcJEw)
 
+## Simulation files 
 
+[link](https://www.dropbox.com/s/urlx5959aricdu9/rope_ex1.zip?dl=0)
+
+please install 
+- Unity
+- Obirope https://obi.virtualmethodstudio.com/manual/6.3/ropesetup.html
+  
 ## Introduction
 In the realm of aerial cable manipulation, catenary robots have emerged as a novel solution. These systems, each formed by two quadcopters connected via a non-stretchable cable, offer a new approach to complex manipulation tasks like tying knots and hitches.
 
