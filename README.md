@@ -11,6 +11,8 @@ In the realm of aerial cable manipulation, catenary robots have emerged as a nov
 
 [![Everything Is AWESOME](https://img.youtube.com/vi/Ci6wI2GcJEw/0.jpg)](https://youtu.be/Ci6wI2GcJEw "Experiment1")
 
+[![Everything Is AWESOME](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/Ci6wI2GcJEw?t=5s "Everything Is AWESOME")
+
 
 ## The Challenge
 Controlling the dynamics of catenary robots presents unique challenges due to the complex, nonlinear effects arising from physical interactions and cable dynamics. The goal is to develop a model that enables coordinated manipulation of interlacing cables.
