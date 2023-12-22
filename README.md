@@ -62,7 +62,7 @@ Actions include velocity changes and exploratory actions during the learning pha
 ### Objective Function
 The goal is to maximize the expected cumulative reward:
 
-$$\[ J(\theta) = \mathbb{E}_{\pi_\theta} \[R(s, a)\] \]$$
+$$\[ J(\theta) = \mathbb{E}_{\pi_{\theta}} \[R(s, a)\] \]$$
 
 ### Policy Gradient
 Adjusting the policy parameters $\theta$ to maximize the objective function:
