@@ -1,7 +1,7 @@
 # Actor-Policy-Reinforcement-Learning-Catenary-Robots
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/diegosdantonio/Actor-Policy-Reinforcement-Learning-Catenary-Robots/blob/main/figures/EXP1.gif">
+  <img src="https://github.com/diegosdantonio/Actor-Policy-Reinforcement-Learning-Catenary-Robots/blob/main/figures/EXP1.gif">
 </p>
 
 ## Introduction
