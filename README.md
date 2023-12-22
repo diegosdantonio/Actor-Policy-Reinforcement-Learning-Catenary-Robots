@@ -7,9 +7,9 @@
 ## Introduction
 In the realm of aerial cable manipulation, catenary robots have emerged as a novel solution. These systems, each formed by two quadcopters connected via a non-stretchable cable, offer a new approach to complex manipulation tasks like tying knots and hitches.
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://youtu.be/rOAVMieaIJA "Experiment1")
+[![Everything Is AWESOME](https://img.youtube.com/vi/rOAVMieaIJA/0.jpg)](https://youtu.be/rOAVMieaIJA "Experiment1")
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://youtu.be/Ci6wI2GcJEw "Experiment1")
+[![Everything Is AWESOME](https://img.youtube.com/vi/Ci6wI2GcJEw/0.jpg)](https://youtu.be/Ci6wI2GcJEw "Experiment1")
 
 
 ## The Challenge
