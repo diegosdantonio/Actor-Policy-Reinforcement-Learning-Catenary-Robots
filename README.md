@@ -31,7 +31,7 @@ The model focuses on the cooperative transportation of a payload by $n$ quadroto
 ### Kinematic Model of Each Robot
 The position of each robot $i$ at any time $t$ is expressed as:
 
-$$\[ \mathbf{p}_i(t) = \begin{bmatrix} x_i(t) \\ y_i(t) \end{bmatrix} \]$$
+$$\[ \mathbf{p}_i(t) = \begin{bmatrix} x_i(t) \quad y_i(t) \end{bmatrix} \]$$
 
 ### Newton-Euler Equations for Dynamics
 For robot $i$ with mass $m_i$, the equation of motion is:
