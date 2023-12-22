@@ -1,6 +1,5 @@
 # Actor-Policy-Reinforcement-Learning-Catenary-Robots
 
-# Exploring the Future of Aerial Robotics: Catenary Robots and Actor Policy Gradient Control
 
 ## Introduction
 In the realm of aerial cable manipulation, catenary robots have emerged as a novel solution. These systems, each formed by two quadcopters connected via a non-stretchable cable, offer a new approach to complex manipulation tasks like tying knots and hitches.
