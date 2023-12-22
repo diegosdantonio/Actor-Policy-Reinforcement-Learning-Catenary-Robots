@@ -1,10 +1,17 @@
 # Actor-Policy-Reinforcement-Learning-Catenary-Robots
 
 
+![Multiple Robots Connected](https://github.com/diegosdantonio/Actor-Policy-Reinforcement-Learning-Catenary-Robots/blob/main/figures/EXP1.gif)
+
 ## Introduction
 In the realm of aerial cable manipulation, catenary robots have emerged as a novel solution. These systems, each formed by two quadcopters connected via a non-stretchable cable, offer a new approach to complex manipulation tasks like tying knots and hitches.
 
-![Multiple Robots Connected to an Object](figures/cage4.png)
+
+[![IMAGE ALT TEXT HERE](https://youtu.be/Ci6wI2GcJEw)](https://youtu.be/Ci6wI2GcJEw)
+
+[![IMAGE ALT TEXT HERE](https://youtu.be/rOAVMieaIJA)](https://youtu.be/rOAVMieaIJA)
+
+
 
 ## The Challenge
 Controlling the dynamics of catenary robots presents unique challenges due to the complex, nonlinear effects arising from physical interactions and cable dynamics. The goal is to develop a model that enables coordinated manipulation of interlacing cables.
@@ -25,17 +32,17 @@ The model focuses on the cooperative transportation of a payload by $n$ quadroto
 ### Kinematic Model of Each Robot
 The position of each robot $i$ at any time $t$ is expressed as:
 
-\[ \mathbf{p}_i(t) = \begin{bmatrix} x_i(t) \\ y_i(t) \end{bmatrix} \]
+$$\[ \mathbf{p}_i(t) = \begin{bmatrix} x_i(t) \\ y_i(t) \end{bmatrix} \]$$
 
 ### Newton-Euler Equations for Dynamics
 For robot $i$ with mass $m_i$, the equation of motion is:
 
-\[ m_i \ddot{\mathbf{p}}_i(t) = \mathbf{f}_i(t) + \mathbf{f}_{rl} \]
+$$\[ m_i \ddot{\mathbf{p}}_i(t) = \mathbf{f}_i(t) + \mathbf{f}_{rl} \]$$
 
 ### Control Action Based on Errors
 A PD controller is used for trajectory tracking:
 
-\[ \mathbf{u}_i(t) = k_p \mathbf{e}_i(t) + k_d \dot{\mathbf{e}}_i(t) \]
+$$\[ \mathbf{u}_i(t) = k_p \mathbf{e}_i(t) + k_d \dot{\mathbf{e}}_i(t) \]$$
 
 ![Robots Interlacing Cables](figures/robots.png)
 
@@ -63,7 +70,9 @@ Adjusting the policy parameters $\theta$ to maximize the objective function:
 ## Experiments and Results
 In the Unity-based simulation, robots follow specific trajectories, and their control inputs are based on positional errors.
 
-![Linear Projection in Simulation](figures/draw_lines.png)
+![Linear Projection in Simulation1](https://github.com/diegosdantonio/Actor-Policy-Reinforcement-Learning-Catenary-Robots/blob/main/figures/draw_lines3.png)
+
+![Linear Projection in Simulation2](https://github.com/diegosdantonio/Actor-Policy-Reinforcement-Learning-Catenary-Robots/blob/main/figures/draw_lines.png)
 
 ## Conclusions
 This research demonstrates the potential of the Actor Policy Gradient framework in a simulated environment and sets the stage for real-world applications. The model assumes robots as point entities in a 2D plane, but future work will consider more complex scenarios.
