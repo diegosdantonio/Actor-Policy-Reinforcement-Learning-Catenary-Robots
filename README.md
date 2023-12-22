@@ -48,17 +48,13 @@ A PD controller is used for trajectory tracking:
 
 $$\[ \mathbf{u}_i(t) = k_p \mathbf{e}_i(t) + k_d \dot{\mathbf{e}}_i(t) \]$$
 
-<p align="center">
-  <img height="300" src="https://github.com/diegosdantonio/Actor-Policy-Reinforcement-Learning-Catenary-Robots/blob/main/figures/drill.png">
-</p>
-
 ## Actor Policy Gradient Method
 This method addresses the challenges posed by the catenary robots' complex dynamics.
 
 ### Policy Representation
 The policy function is defined as:
 
-$$\[ \pi_\theta(a | s) = P[A=a | S=s; \theta] \]$$
+$$\[ \pi_\theta(a | s) = P\[A=a | S=s; \theta\] \]$$
 
 ### Action Space for Catenary Robots
 Actions include velocity changes and exploratory actions during the learning phase.
@@ -66,7 +62,7 @@ Actions include velocity changes and exploratory actions during the learning pha
 ### Objective Function
 The goal is to maximize the expected cumulative reward:
 
-$$\[ J(\theta) = \mathbb{E}_{\pi_\theta}[R(s, a)] \]$$
+$$\[ J(\theta) = \mathbb{E}_{\pi_\theta} \[R(s, a)\] \]$$
 
 ### Policy Gradient
 Adjusting the policy parameters $\theta$ to maximize the objective function:
@@ -97,4 +93,4 @@ This research demonstrates the potential of the Actor Policy Gradient framework 
 
 **References**
 1. Meng, X., Ollero, A., et al. (2022). Advances in Aerial Manipulation.
-2. D'Antonio, D. S. (Year). The Catenary Robot: Design and Control.
+2. D'Antonio, D. S. (2021). The Catenary Robot: Design and Control.
