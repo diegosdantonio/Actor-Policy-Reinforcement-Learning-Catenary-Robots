@@ -1,10 +1,8 @@
 # Actor-Policy-Reinforcement-Learning-Catenary-Robots
 
-
-<p style="text-align: center;">
-  <img src="https://github.com/diegosdantonio/Actor-Policy-Reinforcement-Learning-Catenary-Robots/blob/main/figures/EXP1.gif" alt="Multiple Robots Connected"/>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/diegosdantonio/Actor-Policy-Reinforcement-Learning-Catenary-Robots/blob/main/figures/EXP1.gif">
 </p>
-
 
 ## Introduction
 In the realm of aerial cable manipulation, catenary robots have emerged as a novel solution. These systems, each formed by two quadcopters connected via a non-stretchable cable, offer a new approach to complex manipulation tasks like tying knots and hitches.
