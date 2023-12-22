@@ -51,7 +51,7 @@ This method addresses the challenges posed by the catenary robots' complex dynam
 ### Policy Representation
 The policy function is defined as:
 
-\[ \pi_\theta(a | s) = P[A=a | S=s; \theta] \]
+$$\[ \pi_\theta(a | s) = P[A=a | S=s; \theta] \]$$
 
 ### Action Space for Catenary Robots
 Actions include velocity changes and exploratory actions during the learning phase.
@@ -59,12 +59,12 @@ Actions include velocity changes and exploratory actions during the learning pha
 ### Objective Function
 The goal is to maximize the expected cumulative reward:
 
-\[ J(\theta) = \mathbb{E}_{\pi_\theta}[R(s, a)] \]
+$$\[ J(\theta) = \mathbb{E}_{\pi_\theta}[R(s, a)] \]$$
 
 ### Policy Gradient
 Adjusting the policy parameters $\theta$ to maximize the objective function:
 
-\[ \theta_{\text{new}} = \theta_{\text{old}} + \alpha \nabla_\theta J(\theta) \]
+$$\[ \theta_{\text{new}} = \theta_{\text{old}} + \alpha \nabla_\theta J(\theta) \]$$
 
 ## Experiments and Results
 In the Unity-based simulation, robots follow specific trajectories, and their control inputs are based on positional errors.
